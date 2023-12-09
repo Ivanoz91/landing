@@ -138,8 +138,11 @@ body {
     flex-direction: column;
     font-size: 13px;
     color: #E5E7EB;
-    margin: 0;
     align-items: flex-start;
+}
+.signup p, h2 {
+    margin: 0;
+
 }
 #button2 {
     background-color: #3882F6;
