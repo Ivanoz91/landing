@@ -1,16 +1,72 @@
-header, footer {
+body {
+    padding: 0;
+    margin: 0;
+}
+.maincontainer1, .footer {
     background-color: #1F2937;
 }
-.headerbig {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: extra-bold;
-}
-.navigation {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-.logo{
+.headerlogo {
     font-size: 24px;
     color: #F9FAF8;
+}
+.navlink  a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.navlink a:not(:last-child) {
+    margin-right: 25px;
+}
+.maincontainer1 {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 1%;
+
+}
+.topcontainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.topcontainer2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    justify-content: space-between;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+.headertext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px;
+}
+.button {
+    background-color: #3c81f6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-size: 16px;
+    color: #F9FAF8;
+    transition: 0.3s;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.button:hover {
+    background-color:cadetblue
+}
+.headerleft {
+    flex-direction: column;
+}
+#headerimage {
+    width: auto;
+    height: 300px;
+
 }
