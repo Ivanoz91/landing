@@ -18,10 +18,9 @@ body {
     margin-right: 25px;
 }
 .maincontainer1 {
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 12%;
+    padding-left: 12%;
     padding-top: 1%;
-
 }
 .topcontainer1 {
     display: flex;
@@ -43,13 +42,13 @@ body {
     color: #F9FAF8;
     margin-bottom: 0;
 }
-.headertext {
+.headertext, .footer {
     font-size: 18px;
     color: #E5E7EB;
     margin: 5px;
 }
 .button {
-    background-color: #3c81f6;
+    background-color: #3882F6;
     border: none;
     border-radius: 10px;
     padding: 10px 35px;
@@ -69,4 +68,93 @@ body {
     width: auto;
     height: 300px;
 
+}
+.contentinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 22%;
+    padding-left: 22%;
+    margin-bottom: 8%;
+}
+#pcontent {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.box {
+    border: 5px solid cadetblue;
+    border-radius: 20px; 
+    height: 150px; 
+    width: 150px; 
+    margin-bottom: 10px;
+}
+.box-container {
+    width: 150px;
+}
+.boxtext {
+    font-size: 18px;
+    color: #1F2937;
+    margin: 5px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-right: 23%;
+    padding-left: 23%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #E5E7EB;
+}
+#quoteofthor {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+#signature {
+    text-align: right;
+}
+.bottomsection {
+    background-color: #3882F6;
+    margin: 6% 12%;
+    border-radius: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+.bluebox {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 3% 3%;
+}
+.signup {
+    flex-direction: column;
+    font-size: 13px;
+    color: #E5E7EB;
+    margin: 0;
+    align-items: flex-start;
+}
+#button2 {
+    background-color: #3882F6;
+    padding: 5px 20px; 
+    font-size: 16px; 
+    border: 2px solid white; 
+    border-radius: 25px; 
+    font-size: 16px;
+    color: #F9FAF8;
+    transition: 0.3s;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.footer {
+    padding: 3% 0%;
+    margin: 0;
+    text-align: center;
 }
